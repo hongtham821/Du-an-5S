@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.navrbar__links {
+position: fixed;
+top: 0;
+left: 0;
+width: 60%;
+height: 100%;
+background-color: darkgrey;
+z-index: 5;
+transition: var(--smooth);
+}
+
+.navrbar__links a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    transition: var(--smooth);
+}
+
+.navrbar__links a:hover {
+    color: antiquewhite;
+    transition: var(--smooth);
+}
+
+.navrbar__btn
+
+
+button{
+    text-align: center;
+    color: aliceblue;
+    background-color: darkgray;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: var(--smooth);
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
